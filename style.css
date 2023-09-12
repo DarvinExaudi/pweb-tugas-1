@@ -1,0 +1,150 @@
+body, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+#header-nav {
+  float: right;
+}
+
+.comic-all, .comicp-all{
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.populer{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.comic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-rows: auto;
+  gap: 20px;
+}
+
+.comic-list, .komik-populer {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.komik-populer{
+  display: flex;
+  gap: 10px;
+}
+
+.comic, .comic-p {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.comic a, .comic-p a{
+  text-decoration: none;
+}
+
+.comic img{
+  max-width: 60%;
+  height: auto;
+}
+
+.comic-p img{
+  max-width: 300px;
+  height: 300px;
+}
+
+.comic p{
+  margin: 10px 0;
+}
+
+
+.logo {
+  width: 200px;
+  height: auto;
+}
+
+.logo-judul {
+  display: flex;
+  align-items: center;
+}
+
+.cari-judul{
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  max-height: 120px;
+}
+
+#category-list {
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  text-align: left;
+  max-width: 100px;
+  max-height: 500px;
+}
+
+#category-list ul {
+  padding: 0px;
+}
+
+#category-list li {
+  list-style: none;
+}
+
+#category-list a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#search-input{
+  height: 30px;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px;
+  width: 100px;
+  border-radius: 2px;
+}
+
+#header-nav ul {
+  display: flex;
+  list-style: none;
+}
+
+#header-nav ul li a{
+  margin-right: 50px;
+  text-decoration: none;
+  color: #f0f0f0;
+}
